@@ -6,9 +6,9 @@
 //  Copyright © 2016 Taylor Frost. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class Hike {
+class Hike:NSObject {
     
     var hike_name:String = ""
     var picture:String = ""
@@ -18,7 +18,7 @@ class Hike {
     var milage:String = ""
     var elevation_change:String = ""
     
-    init() {
+    override init() {
         
         self.hike_name = ""
         self.picture = ""

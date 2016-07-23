@@ -14,6 +14,7 @@
 		FD46D2701D43A472007F4E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46D26E1D43A472007F4E3B /* LaunchScreen.storyboard */; };
 		FD46D2781D43B749007F4E3B /* hikes.json in Resources */ = {isa = PBXBuildFile; fileRef = FD46D2771D43B749007F4E3B /* hikes.json */; };
 		FD46D27A1D43B781007F4E3B /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46D2791D43B781007F4E3B /* Hike.swift */; };
+		FD46D2801D43C0E5007F4E3B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46D27F1D43C0E5007F4E3B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FD46D2711D43A472007F4E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD46D2771D43B749007F4E3B /* hikes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikes.json; sourceTree = "<group>"; };
 		FD46D2791D43B781007F4E3B /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		FD46D27F1D43C0E5007F4E3B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FD46D2791D43B781007F4E3B /* Hike.swift */,
+				FD46D27F1D43C0E5007F4E3B /* User.swift */,
 			);
 			name = Modal;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD46D2801D43C0E5007F4E3B /* User.swift in Sources */,
 				FD46D27A1D43B781007F4E3B /* Hike.swift in Sources */,
 				FD46D2681D43A472007F4E3B /* ViewController.swift in Sources */,
 				FD46D2661D43A472007F4E3B /* AppDelegate.swift in Sources */,
