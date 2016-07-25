@@ -8,8 +8,9 @@
 
 import UIKit
 
-class Hike:NSObject {
+class Hike: NSObject {
     
+    var hikeid:String = ""
     var hike_name:String = ""
     var picture:String = ""
     var difficulty:Int = 0
@@ -19,7 +20,7 @@ class Hike:NSObject {
     var elevation_change:String = ""
     
     override init() {
-        
+        self.hikeid = ""
         self.hike_name = ""
         self.picture = ""
         self.difficulty = 0

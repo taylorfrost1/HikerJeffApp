@@ -88,8 +88,7 @@ class ViewController: UIViewController {
                     print("Something went wrong parsing the data")
                 }
             }
-            
-            
+   
         } else {
             
             print("The file could not be parsed")
@@ -101,6 +100,8 @@ class ViewController: UIViewController {
             print(theHike.hike_name)
         }
     }
+    
+    //MARK: Table View Data Source
 
 }
 

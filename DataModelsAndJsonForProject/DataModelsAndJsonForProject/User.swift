@@ -10,14 +10,15 @@ import UIKit
 
 class User: NSObject {
     
+    var uid:String = ""
     var name:String = ""
     var phoneNumber:Int = 0
     var emailAddress:String = ""
     var numberOfPeopleInParty:Int = 0
     var fitnessLevelOfParty:String = ""
     
-    override init(){
-        
+    override init() {
+        self.uid = ""
         self.name = ""
         self.phoneNumber = 0
         self.emailAddress = ""
