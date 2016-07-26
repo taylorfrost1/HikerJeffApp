@@ -14,10 +14,13 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     @IBOutlet weak var body: UITextView!
     @IBOutlet weak var subject: UITextField!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        body.hidden = true
+        subject.hidden = true
+    
     }
 
     @IBAction func sendEmail(sender: UIButton) {
@@ -37,7 +40,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         mc.setToRecipients(toRecipients)
         
         self.presentViewController(mc, animated: true, completion: nil)
-  
+        
     }
     
     func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {

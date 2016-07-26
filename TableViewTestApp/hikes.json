@@ -1,0 +1,85 @@
+{
+	"results": [{
+		"hike_name": "White Wave",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}, {
+		"hike_name": "Water Canyon Arch",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}, {
+		"hike_name": "Windlass",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}, {
+		"hike_name": "Cannan Traverse",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+
+	}, {
+		"hike_name": "Pockets",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}, {
+		"hike_name": "Cobra Arch",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}, {
+		"hike_name": "Buckskin Half",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}, {
+		"hike_name": "Yellow Rock",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}, {
+		"hike_name": "Pine Valley Traverse",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+
+	}, {
+		"hike_name": "Rattle Snake Gulch",
+		"picture": "WhiteWave",
+		"difficulty": 5,
+		"location": "1365 S 325 W Hurricane, UT",
+		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+		"milage": "4 Miles",
+		"elevation_change": "500 Feet"
+	}]
+}

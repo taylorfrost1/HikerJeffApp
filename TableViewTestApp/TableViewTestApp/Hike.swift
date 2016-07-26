@@ -1,8 +1,8 @@
 //
 //  Hike.swift
-//  DataModelsAndJsonForProject
+//  TableViewTestApp
 //
-//  Created by Taylor Frost on 7/23/16.
+//  Created by Taylor Frost on 7/26/16.
 //  Copyright © 2016 Taylor Frost. All rights reserved.
 //
 
@@ -28,7 +28,7 @@ class Hike: NSObject {
         self.info = ""
         self.milage = ""
         self.elevation_change = ""
-       
+        
     }
 
 }
