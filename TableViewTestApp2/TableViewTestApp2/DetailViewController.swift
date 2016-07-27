@@ -22,6 +22,10 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var detailLocationLabel: UILabel!
     
+    @IBOutlet weak var detailMilageLabel: UILabel!
+    
+    @IBOutlet weak var detailElevationChangeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,6 +34,8 @@ class DetailViewController: UIViewController {
         self.detailInfoLabel.text = detailVariable?.info
         self.detailDifficultyLevelLabel.text = detailVariable?.difficulty
         self.detailLocationLabel.text = detailVariable?.location
+        self.detailMilageLabel.text = detailVariable?.milage
+        self.detailElevationChangeLabel.text = detailVariable?.elevation_change
 
     }
 
