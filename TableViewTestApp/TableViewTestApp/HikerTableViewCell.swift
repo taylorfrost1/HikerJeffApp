@@ -10,6 +10,8 @@ import UIKit
 
 class HikerTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var pictureImageView: UIImageView!
-   
+    @IBOutlet weak var tableviewImageView: UIImageView!
+
+    @IBOutlet weak var tableviewNameLabel: UILabel!
+
 }

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TableViewTestApp
+//  TableViewTestApp2
 //
 //  Created by Taylor Frost on 7/26/16.
 //  Copyright © 2016 Taylor Frost. All rights reserved.
@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                     print("I could not parse the pictures")
                                 }
                                 
-                                if let difficulty = dict["difficulty"] as? Int{
+                                if let difficulty = dict["difficulty"] as? String{
                                     theHike.difficulty = difficulty
                                 } else {
                                     print("The difficulty could not be parsed")
@@ -101,25 +101,29 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             print(theHike.hike_name)
         }
         
-        
+
     }
-    
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            
+        
         return self.hikeArray.count
-            
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! HikerTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! HikeTableViewCell
         
         self.currentHike = self.hikeArray[indexPath.row]
         
-        cell.tableviewNameLabel.text = currentHike.hike_name
+        cell.tableViewNameLabel.text = currentHike.hike_name
         
-        cell.tableviewImageView.image = UIImage(named: currentHike.picture)
+        cell.tableViewImageView.image = UIImage(named: currentHike.picture)
         
+        cell.tableViewDifficultyLabel.text = currentHike.difficulty
+        
+        cell.tableViewLocationLabel.text = currentHike.location
+        
+
         return cell
         
     }
@@ -130,24 +134,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         performSegueWithIdentifier("detailSegue", sender: nil)
         
-        
     }
-    //MARK: - Segue
- 
-        override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
-            
-            if (segue.identifier == "detailSegue") {
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        
+        if (segue.identifier == "detailSegue") {
             
             if let controller = segue.destinationViewController as? DetailViewController{
-            
-                    controller.detailVariable = self.currentHike
-            
-                    print("The values should be passing")
-                                
+                
+                controller.detailVariable = self.currentHike
+                
+                print("The values should be passing")
+                
             }
         }
-
+        
     }
+
 
 }
 

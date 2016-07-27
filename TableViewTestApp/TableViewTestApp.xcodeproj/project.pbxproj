@@ -16,6 +16,7 @@
 		FDDFA8321D47EDC400E687B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFA8311D47EDC400E687B9 /* User.swift */; };
 		FDDFA8361D47F16000E687B9 /* hikes.json in Resources */ = {isa = PBXBuildFile; fileRef = FDDFA8351D47F16000E687B9 /* hikes.json */; };
 		FDDFA8381D47F5BE00E687B9 /* HikerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFA8371D47F5BE00E687B9 /* HikerTableViewCell.swift */; };
+		FDDFA83B1D47FB4F00E687B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFA83A1D47FB4F00E687B9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FDDFA8311D47EDC400E687B9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FDDFA8351D47F16000E687B9 /* hikes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikes.json; sourceTree = "<group>"; };
 		FDDFA8371D47F5BE00E687B9 /* HikerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikerTableViewCell.swift; sourceTree = "<group>"; };
+		FDDFA83A1D47FB4F00E687B9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDFA81F1D47ED2400E687B9 /* ViewController.swift */,
+				FDDFA83A1D47FB4F00E687B9 /* DetailViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				FDDFA8321D47EDC400E687B9 /* User.swift in Sources */,
 				FDDFA8301D47EDB700E687B9 /* Hike.swift in Sources */,
 				FDDFA8201D47ED2400E687B9 /* ViewController.swift in Sources */,
+				FDDFA83B1D47FB4F00E687B9 /* DetailViewController.swift in Sources */,
 				FDDFA81E1D47ED2400E687B9 /* AppDelegate.swift in Sources */,
 				FDDFA8381D47F5BE00E687B9 /* HikerTableViewCell.swift in Sources */,
 			);
