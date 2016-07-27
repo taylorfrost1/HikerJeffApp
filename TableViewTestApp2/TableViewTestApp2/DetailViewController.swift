@@ -18,12 +18,18 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var detailInfoLabel: UILabel!
     
+    @IBOutlet weak var detailDifficultyLevelLabel: UILabel!
+    
+    @IBOutlet weak var detailLocationLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.detailImageView.image = UIImage(named:detailVariable!.picture)
         self.detailNameLabel.text = detailVariable?.hike_name
         self.detailInfoLabel.text = detailVariable?.info
+        self.detailDifficultyLevelLabel.text = detailVariable?.difficulty
+        self.detailLocationLabel.text = detailVariable?.location
 
     }
 
