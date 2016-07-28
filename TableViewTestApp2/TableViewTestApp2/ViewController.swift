@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         if let filePath = NSBundle.mainBundle().URLForResource("hikes", withExtension: "json") {
             
             if let data = NSData(contentsOfURL: filePath) {

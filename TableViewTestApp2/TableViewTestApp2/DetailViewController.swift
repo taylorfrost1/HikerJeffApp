@@ -26,9 +26,12 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var detailElevationChangeLabel: UILabel!
     
+    @IBOutlet weak var detailReserveButtonOutlet: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        detailReserveButtonOutlet.layer.cornerRadius = 10
         self.detailImageView.image = UIImage(named:detailVariable!.picture)
         self.detailNameLabel.text = detailVariable?.hike_name
         self.detailInfoLabel.text = detailVariable?.info
