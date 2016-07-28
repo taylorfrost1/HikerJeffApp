@@ -25,7 +25,7 @@
 		"elevation_change": "500 ft"
 	}, {
 		"hike_name": "Cannan Traverse",
-		"picture": "WhiteWave",
+		"picture": "Cannan",
 		"difficulty": "Moderate",
 		"location": "Kanab, UT",
 		"info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
@@ -50,7 +50,7 @@
 		"elevation_change": "500 ft"
 	}, {
 		"hike_name": "Buckskin Half",
-		"picture": "WhiteWave",
+		"picture": "BuckskinHalf",
 		"difficulty": "Moderate",
 		"location": "Kanab, UT",
 		"info": "The Buckskin is supposedly the longest slot canyon in the world that can be hiked without rappelling gear with only 1 place to climb out for over 15 miles.  It is considered one of the top hikes on the planet as it winds through sandstone up to 300 feet deep and shoulder width in some places.  This has to be hiked with 0 percent precipitation forecast.  We will shorten it to 10 miles to keep us fresh for other hikes.",
@@ -74,6 +74,15 @@
 		"elevation_change": "500 ft"
 
 	}, {
+        "hike_name": "Rattle Snake Gulch",
+        "picture": "WhiteWave",
+        "difficulty": "Moderate",
+        "location": "Kanab, UT",
+        "info": "This hike is absolutely incredible, I can truly say I have never seen anything more beautiful.",
+        "milage": "4 Miles",
+        "elevation_change": "500 ft"
+                
+    }, {
 		"hike_name": "Thunder River",
 		"picture": "WhiteWave",
 		"difficulty": "Hard",
