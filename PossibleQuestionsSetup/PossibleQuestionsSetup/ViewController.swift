@@ -9,14 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var nameTextFieldOutlet: UITextField!
+    
+    @IBOutlet weak var phoneNumberTextFieldOutlet: UITextField!
+    
+    @IBOutlet weak var emailAddressTextFieldOutlet: UITextField!
+    
+    @IBOutlet weak var numberInPartyTextFieldOutlet: UITextField!
+    
+    @IBOutlet weak var fitnessLevelTextFieldOutlet: UITextField!
+
+    @IBOutlet weak var continueButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let array:[String] = ["Hello","Goodbye"]
+        continueButton.layer.cornerRadius = 10
         
-        print(array[1])
-   
+        
+
     }
     
 
