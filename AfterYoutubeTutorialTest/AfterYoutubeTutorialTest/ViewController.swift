@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -50,6 +50,7 @@ class ViewController: UIViewController {
             }
 
         }
+
     }
     
     @IBAction func buttonOneTapped(sender: UIButton) {
@@ -59,24 +60,18 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTwoTapped(sender: UIButton) {
         self.secondConditionRef.removeValue()
-        
-        
+ 
     }
     
     @IBAction func buttonThreeTapped(sender: UIButton) {
         self.thirdConditionRef.removeValue()
-        
+ 
     }
     
     @IBAction func buttonFourTapped(sender: UIButton) {
         self.fourthConditionRef.removeValue()
-        
-        
+  
     }
 
-    
-    
-    
-    
 
 }
