@@ -22,8 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func dateData() {
         
-    
-        
+
         let firstDate = Date(date:"August 3, 2016")
         dateArray.append(firstDate)
         let secondDate = Date(date:"August 10, 2016")

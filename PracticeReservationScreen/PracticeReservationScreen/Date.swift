@@ -16,8 +16,6 @@ class Date: NSObject {
     init(date:String) {
         
         self.date = date
-        
-        
 
     }
 

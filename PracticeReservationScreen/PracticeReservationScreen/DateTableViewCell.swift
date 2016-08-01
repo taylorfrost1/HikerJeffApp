@@ -11,11 +11,5 @@ import UIKit
 class DateTableViewCell: UITableViewCell {
 
     @IBOutlet weak var tableViewDateLabel: UILabel!
-
-    func yes() {
-        
-        self.tableViewDateLabel.layer.cornerRadius = 10
-    }
-    
-    
+   
 }

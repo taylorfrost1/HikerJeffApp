@@ -15,6 +15,7 @@
 		FD978E711D4675DC0023BE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD978E6F1D4675DC0023BE61 /* LaunchScreen.storyboard */; };
 		FDBC4A851D4C41D10061366B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDBC4A841D4C41D10061366B /* GoogleService-Info.plist */; };
 		FDBC4A871D4C44BF0061366B /* Reservations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC4A861D4C44BF0061366B /* Reservations.swift */; };
+		FDC28E721D4E45C400D4A93C /* InformationInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC28E711D4E45C400D4A93C /* InformationInputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FD978E721D4675DC0023BE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBC4A841D4C41D10061366B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDBC4A861D4C44BF0061366B /* Reservations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservations.swift; sourceTree = "<group>"; };
+		FDC28E711D4E45C400D4A93C /* InformationInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				FD978E661D4675DC0023BE61 /* AppDelegate.swift */,
-				FDBC4A881D4C44C30061366B /* Controllers */,
 				FDBC4A891D4C44C80061366B /* Modals */,
+				FDBC4A881D4C44C30061366B /* Controllers */,
 				FD978E6A1D4675DC0023BE61 /* Main.storyboard */,
 				FD978E6D1D4675DC0023BE61 /* Assets.xcassets */,
 				FD978E6F1D4675DC0023BE61 /* LaunchScreen.storyboard */,
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				FD978E681D4675DC0023BE61 /* ViewController.swift */,
+				FDC28E711D4E45C400D4A93C /* InformationInputViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC28E721D4E45C400D4A93C /* InformationInputViewController.swift in Sources */,
 				FD978E691D4675DC0023BE61 /* ViewController.swift in Sources */,
 				FDBC4A871D4C44BF0061366B /* Reservations.swift in Sources */,
 				FD978E671D4675DC0023BE61 /* AppDelegate.swift in Sources */,
