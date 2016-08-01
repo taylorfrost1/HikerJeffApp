@@ -34,12 +34,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             self.reservationsArray = []
             
+            
+            
             if let snapshots = snapshot.children.allObjects as? [FIRDataSnapshot] {
                 
                 for snap in snapshots {
                     if let dict = snap.value as? Dictionary<String, AnyObject> {
                         let key = snap.key
                         let post = Reservations(key: key, dict: dict)
+                        
                         
                         
                         dispatch_async(dispatch_get_main_queue(), {
