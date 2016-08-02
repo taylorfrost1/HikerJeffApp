@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0F31E11D4FA2FB00A51ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F31E01D4FA2FB00A51ADE /* AppDelegate.swift */; };
+		FD0F31E31D4FA2FB00A51ADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F31E21D4FA2FB00A51ADE /* ViewController.swift */; };
+		FD0F31E61D4FA2FB00A51ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0F31E41D4FA2FB00A51ADE /* Main.storyboard */; };
+		FD0F31E81D4FA2FB00A51ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0F31E71D4FA2FB00A51ADE /* Assets.xcassets */; };
+		FD0F31EB1D4FA2FB00A51ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0F31E91D4FA2FB00A51ADE /* LaunchScreen.storyboard */; };
+		FD0F31F41D4FA6B500A51ADE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0F31F21D4FA6B500A51ADE /* FBSDKCoreKit.framework */; };
+		FD0F31F51D4FA6B500A51ADE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0F31F31D4FA6B500A51ADE /* FBSDKLoginKit.framework */; };
+		FD0F31F71D4FAD4300A51ADE /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0F31F61D4FAD4300A51ADE /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD0F31DD1D4FA2FB00A51ADE /* FacebookSDKIntegrationTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookSDKIntegrationTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0F31E01D4FA2FB00A51ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0F31E21D4FA2FB00A51ADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD0F31E51D4FA2FB00A51ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0F31E71D4FA2FB00A51ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0F31EA1D4FA2FB00A51ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD0F31EC1D4FA2FB00A51ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0F31F21D4FA6B500A51ADE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FD0F31F31D4FA6B500A51ADE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FD0F31F61D4FAD4300A51ADE /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		FD0F31F81D4FAD9D00A51ADE /* FacebookSDKIntegrationTest1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookSDKIntegrationTest1-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0F31DA1D4FA2FB00A51ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0F31F51D4FA6B500A51ADE /* FBSDKLoginKit.framework in Frameworks */,
+				FD0F31F41D4FA6B500A51ADE /* FBSDKCoreKit.framework in Frameworks */,
+				FD0F31F71D4FAD4300A51ADE /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0F31D41D4FA2FB00A51ADE = {
+			isa = PBXGroup;
+			children = (
+				FD0F31DF1D4FA2FB00A51ADE /* FacebookSDKIntegrationTest1 */,
+				FD0F31DE1D4FA2FB00A51ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0F31DE1D4FA2FB00A51ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0F31DD1D4FA2FB00A51ADE /* FacebookSDKIntegrationTest1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0F31DF1D4FA2FB00A51ADE /* FacebookSDKIntegrationTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				FD0F31E01D4FA2FB00A51ADE /* AppDelegate.swift */,
+				FD0F31E21D4FA2FB00A51ADE /* ViewController.swift */,
+				FD0F31E41D4FA2FB00A51ADE /* Main.storyboard */,
+				FD0F31E71D4FA2FB00A51ADE /* Assets.xcassets */,
+				FD0F31E91D4FA2FB00A51ADE /* LaunchScreen.storyboard */,
+				FD0F31EC1D4FA2FB00A51ADE /* Info.plist */,
+				FD0F31F61D4FAD4300A51ADE /* FBSDKShareKit.framework */,
+				FD0F31F21D4FA6B500A51ADE /* FBSDKCoreKit.framework */,
+				FD0F31F31D4FA6B500A51ADE /* FBSDKLoginKit.framework */,
+				FD0F31F81D4FAD9D00A51ADE /* FacebookSDKIntegrationTest1-Bridging-Header.h */,
+			);
+			path = FacebookSDKIntegrationTest1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0F31DC1D4FA2FB00A51ADE /* FacebookSDKIntegrationTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0F31EF1D4FA2FB00A51ADE /* Build configuration list for PBXNativeTarget "FacebookSDKIntegrationTest1" */;
+			buildPhases = (
+				FD0F31D91D4FA2FB00A51ADE /* Sources */,
+				FD0F31DA1D4FA2FB00A51ADE /* Frameworks */,
+				FD0F31DB1D4FA2FB00A51ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookSDKIntegrationTest1;
+			productName = FacebookSDKIntegrationTest1;
+			productReference = FD0F31DD1D4FA2FB00A51ADE /* FacebookSDKIntegrationTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0F31D51D4FA2FB00A51ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Taylor Frost";
+				TargetAttributes = {
+					FD0F31DC1D4FA2FB00A51ADE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FD0F31D81D4FA2FB00A51ADE /* Build configuration list for PBXProject "FacebookSDKIntegrationTest1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0F31D41D4FA2FB00A51ADE;
+			productRefGroup = FD0F31DE1D4FA2FB00A51ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0F31DC1D4FA2FB00A51ADE /* FacebookSDKIntegrationTest1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0F31DB1D4FA2FB00A51ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0F31EB1D4FA2FB00A51ADE /* LaunchScreen.storyboard in Resources */,
+				FD0F31E81D4FA2FB00A51ADE /* Assets.xcassets in Resources */,
+				FD0F31E61D4FA2FB00A51ADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0F31D91D4FA2FB00A51ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0F31E31D4FA2FB00A51ADE /* ViewController.swift in Sources */,
+				FD0F31E11D4FA2FB00A51ADE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD0F31E41D4FA2FB00A51ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0F31E51D4FA2FB00A51ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD0F31E91D4FA2FB00A51ADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0F31EA1D4FA2FB00A51ADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0F31ED1D4FA2FB00A51ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD0F31EE1D4FA2FB00A51ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0F31F01D4FA2FB00A51ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKIntegrationTest1",
+				);
+				INFOPLIST_FILE = FacebookSDKIntegrationTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FacebookSDKIntegrationTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookSDKIntegrationTest1/FacebookSDKIntegrationTest1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD0F31F11D4FA2FB00A51ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKIntegrationTest1",
+				);
+				INFOPLIST_FILE = FacebookSDKIntegrationTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FacebookSDKIntegrationTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookSDKIntegrationTest1/FacebookSDKIntegrationTest1-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0F31D81D4FA2FB00A51ADE /* Build configuration list for PBXProject "FacebookSDKIntegrationTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0F31ED1D4FA2FB00A51ADE /* Debug */,
+				FD0F31EE1D4FA2FB00A51ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0F31EF1D4FA2FB00A51ADE /* Build configuration list for PBXNativeTarget "FacebookSDKIntegrationTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0F31F01D4FA2FB00A51ADE /* Debug */,
+				FD0F31F11D4FA2FB00A51ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD0F31D51D4FA2FB00A51ADE /* Project object */;
+}
