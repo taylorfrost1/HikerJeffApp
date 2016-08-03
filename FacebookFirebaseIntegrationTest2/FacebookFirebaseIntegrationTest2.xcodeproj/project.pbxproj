@@ -14,6 +14,12 @@
 		FD5548D31D500B7E00958227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5548D21D500B7E00958227 /* Assets.xcassets */; };
 		FD5548D61D500B7E00958227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5548D41D500B7E00958227 /* LaunchScreen.storyboard */; };
 		FD5548DF1D500F5E00958227 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD5548DE1D500F5E00958227 /* GoogleService-Info.plist */; };
+		FD6859581D5275C9000BC7A5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859571D5275C9000BC7A5 /* SignUpViewController.swift */; };
+		FD68595A1D527BE0000BC7A5 /* HikeTableviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859591D527BE0000BC7A5 /* HikeTableviewViewController.swift */; };
+		FD68595C1D5289C2000BC7A5 /* hikes.json in Resources */ = {isa = PBXBuildFile; fileRef = FD68595B1D5289C2000BC7A5 /* hikes.json */; };
+		FD68595F1D5291C0000BC7A5 /* HikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68595E1D5291C0000BC7A5 /* HikeTableViewCell.swift */; };
+		FD6859621D5292CB000BC7A5 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859611D5292CB000BC7A5 /* Hike.swift */; };
+		FD6859651D5293D2000BC7A5 /* DetailHikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,12 @@
 		FD5548D71D500B7E00958227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5548DD1D500D4E00958227 /* YoutubeTutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoutubeTutorial-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD5548DE1D500F5E00958227 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD6859571D5275C9000BC7A5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FD6859591D527BE0000BC7A5 /* HikeTableviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeTableviewViewController.swift; sourceTree = "<group>"; };
+		FD68595B1D5289C2000BC7A5 /* hikes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikes.json; sourceTree = "<group>"; };
+		FD68595E1D5291C0000BC7A5 /* HikeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeTableViewCell.swift; sourceTree = "<group>"; };
+		FD6859611D5292CB000BC7A5 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHikeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,15 +94,45 @@
 			isa = PBXGroup;
 			children = (
 				FD5548CB1D500B7E00958227 /* AppDelegate.swift */,
-				FD5548CD1D500B7E00958227 /* LoginController.swift */,
+				FD6859601D5291CF000BC7A5 /* Views */,
+				FD6859631D5292D4000BC7A5 /* Modals */,
+				FD68595D1D5291A4000BC7A5 /* ViewControllers */,
 				FD5548CF1D500B7E00958227 /* Main.storyboard */,
 				FD5548D21D500B7E00958227 /* Assets.xcassets */,
 				FD5548D41D500B7E00958227 /* LaunchScreen.storyboard */,
 				FD5548D71D500B7E00958227 /* Info.plist */,
 				FD5548DE1D500F5E00958227 /* GoogleService-Info.plist */,
 				FD5548DD1D500D4E00958227 /* YoutubeTutorial-Bridging-Header.h */,
+				FD68595B1D5289C2000BC7A5 /* hikes.json */,
 			);
 			path = FacebookFirebaseIntegrationTest2;
+			sourceTree = "<group>";
+		};
+		FD68595D1D5291A4000BC7A5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD5548CD1D500B7E00958227 /* LoginController.swift */,
+				FD6859571D5275C9000BC7A5 /* SignUpViewController.swift */,
+				FD6859591D527BE0000BC7A5 /* HikeTableviewViewController.swift */,
+				FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FD6859601D5291CF000BC7A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD68595E1D5291C0000BC7A5 /* HikeTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FD6859631D5292D4000BC7A5 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				FD6859611D5292CB000BC7A5 /* Hike.swift */,
+			);
+			name = Modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD5548D61D500B7E00958227 /* LaunchScreen.storyboard in Resources */,
+				FD68595C1D5289C2000BC7A5 /* hikes.json in Resources */,
 				FD5548DF1D500F5E00958227 /* GoogleService-Info.plist in Resources */,
 				FD5548D31D500B7E00958227 /* Assets.xcassets in Resources */,
 				FD5548D11D500B7E00958227 /* Main.storyboard in Resources */,
@@ -216,8 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6859621D5292CB000BC7A5 /* Hike.swift in Sources */,
+				FD6859581D5275C9000BC7A5 /* SignUpViewController.swift in Sources */,
+				FD68595A1D527BE0000BC7A5 /* HikeTableviewViewController.swift in Sources */,
+				FD68595F1D5291C0000BC7A5 /* HikeTableViewCell.swift in Sources */,
 				FD5548CE1D500B7E00958227 /* LoginController.swift in Sources */,
 				FD5548CC1D500B7E00958227 /* AppDelegate.swift in Sources */,
+				FD6859651D5293D2000BC7A5 /* DetailHikeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
