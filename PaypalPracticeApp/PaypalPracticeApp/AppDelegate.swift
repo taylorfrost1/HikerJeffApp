@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        PayPalMobile.initializeWithClientIdsForEnvironments([PayPalEnvironmentProduction: "abc", PayPalEnvironmentSandbox: "xyz"])
+        PayPalMobile.initializeWithClientIdsForEnvironments([PayPalEnvironmentProduction: "taylorhamblinfrost@gmail.com", PayPalEnvironmentSandbox: "taylorhamblinfrost@gmail.com"])
         
         return true
     }

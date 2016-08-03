@@ -57,7 +57,7 @@ class ViewController: UIViewController, PayPalPaymentDelegate {
 
     @IBAction func payButtonTapped(sender: UIButton) {
         
-        let item1 = PayPalItem(name:"Taylor Frost Test Item", withQuantity: 1, withPrice: NSDecimalNumber(string: "99.99"), withCurrency:"USD", withSku:"Taylor Frost-0001")
+        let item1 = PayPalItem(name:"Taylor Frost Test Item", withQuantity: 1, withPrice: NSDecimalNumber(string: "1.99"), withCurrency:"USD", withSku:"Taylor Frost-0001")
         
         let items = [item1]
         let subtotal = PayPalItem.totalPriceForItems(items)

@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BCB9CB88DE1CF70057B8890 /* Pods_BraintreeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B70FF7020B3842F934232A /* Pods_BraintreeTest.framework */; };
+		FD6859431D5257D4000BC7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859421D5257D4000BC7A5 /* AppDelegate.swift */; };
+		FD6859481D5257D4000BC7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6859461D5257D4000BC7A5 /* Main.storyboard */; };
+		FD68594A1D5257D4000BC7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6859491D5257D4000BC7A5 /* Assets.xcassets */; };
+		FD68594D1D5257D4000BC7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD68594B1D5257D4000BC7A5 /* LaunchScreen.storyboard */; };
+		FD6859561D5260D5000BC7A5 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859551D5260D5000BC7A5 /* MyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		599E708DACB61E2C728DA989 /* Pods-BraintreeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraintreeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BraintreeTest/Pods-BraintreeTest.release.xcconfig"; sourceTree = "<group>"; };
+		81B70FF7020B3842F934232A /* Pods_BraintreeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraintreeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954597C73E6DF5B4B23CFEAD /* Pods-BraintreeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraintreeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BraintreeTest/Pods-BraintreeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FD68593F1D5257D4000BC7A5 /* BraintreeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraintreeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6859421D5257D4000BC7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD6859471D5257D4000BC7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD6859491D5257D4000BC7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD68594C1D5257D4000BC7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD68594E1D5257D4000BC7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6859541D525911000BC7A5 /* Braintree-Header-File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Braintree-Header-File.h"; sourceTree = "<group>"; };
+		FD6859551D5260D5000BC7A5 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD68593C1D5257D4000BC7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCB9CB88DE1CF70057B8890 /* Pods_BraintreeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090A44F224D4954609CE30CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81B70FF7020B3842F934232A /* Pods_BraintreeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3757062667B16D6E046BFB6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				954597C73E6DF5B4B23CFEAD /* Pods-BraintreeTest.debug.xcconfig */,
+				599E708DACB61E2C728DA989 /* Pods-BraintreeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD6859361D5257D4000BC7A5 = {
+			isa = PBXGroup;
+			children = (
+				FD6859411D5257D4000BC7A5 /* BraintreeTest */,
+				FD6859401D5257D4000BC7A5 /* Products */,
+				3757062667B16D6E046BFB6B /* Pods */,
+				090A44F224D4954609CE30CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6859401D5257D4000BC7A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD68593F1D5257D4000BC7A5 /* BraintreeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6859411D5257D4000BC7A5 /* BraintreeTest */ = {
+			isa = PBXGroup;
+			children = (
+				FD6859421D5257D4000BC7A5 /* AppDelegate.swift */,
+				FD6859551D5260D5000BC7A5 /* MyViewController.swift */,
+				FD6859461D5257D4000BC7A5 /* Main.storyboard */,
+				FD6859491D5257D4000BC7A5 /* Assets.xcassets */,
+				FD68594B1D5257D4000BC7A5 /* LaunchScreen.storyboard */,
+				FD68594E1D5257D4000BC7A5 /* Info.plist */,
+				FD6859541D525911000BC7A5 /* Braintree-Header-File.h */,
+			);
+			path = BraintreeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD68593E1D5257D4000BC7A5 /* BraintreeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6859511D5257D4000BC7A5 /* Build configuration list for PBXNativeTarget "BraintreeTest" */;
+			buildPhases = (
+				3C6B9BB08E6162F9897695AB /* [CP] Check Pods Manifest.lock */,
+				FD68593B1D5257D4000BC7A5 /* Sources */,
+				FD68593C1D5257D4000BC7A5 /* Frameworks */,
+				FD68593D1D5257D4000BC7A5 /* Resources */,
+				038DD4B50D774F324E0F8BD1 /* [CP] Embed Pods Frameworks */,
+				FC928289BF307D58A0A03F5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BraintreeTest;
+			productName = BraintreeTest;
+			productReference = FD68593F1D5257D4000BC7A5 /* BraintreeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6859371D5257D4000BC7A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Taylor Frost";
+				TargetAttributes = {
+					FD68593E1D5257D4000BC7A5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FD68593A1D5257D4000BC7A5 /* Build configuration list for PBXProject "BraintreeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD6859361D5257D4000BC7A5;
+			productRefGroup = FD6859401D5257D4000BC7A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD68593E1D5257D4000BC7A5 /* BraintreeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD68593D1D5257D4000BC7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD68594D1D5257D4000BC7A5 /* LaunchScreen.storyboard in Resources */,
+				FD68594A1D5257D4000BC7A5 /* Assets.xcassets in Resources */,
+				FD6859481D5257D4000BC7A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		038DD4B50D774F324E0F8BD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BraintreeTest/Pods-BraintreeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6B9BB08E6162F9897695AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC928289BF307D58A0A03F5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BraintreeTest/Pods-BraintreeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD68593B1D5257D4000BC7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6859561D5260D5000BC7A5 /* MyViewController.swift in Sources */,
+				FD6859431D5257D4000BC7A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD6859461D5257D4000BC7A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6859471D5257D4000BC7A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD68594B1D5257D4000BC7A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD68594C1D5257D4000BC7A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD68594F1D5257D4000BC7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD6859501D5257D4000BC7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6859521D5257D4000BC7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954597C73E6DF5B4B23CFEAD /* Pods-BraintreeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BraintreeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.BraintreeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD6859531D5257D4000BC7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599E708DACB61E2C728DA989 /* Pods-BraintreeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BraintreeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.BraintreeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD68593A1D5257D4000BC7A5 /* Build configuration list for PBXProject "BraintreeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD68594F1D5257D4000BC7A5 /* Debug */,
+				FD6859501D5257D4000BC7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6859511D5257D4000BC7A5 /* Build configuration list for PBXNativeTarget "BraintreeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6859521D5257D4000BC7A5 /* Debug */,
+				FD6859531D5257D4000BC7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6859371D5257D4000BC7A5 /* Project object */;
+}

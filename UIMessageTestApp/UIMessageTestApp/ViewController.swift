@@ -13,6 +13,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var body: UITextView!
     @IBOutlet weak var subject: UITextField!
+    let hello = "Dude you totally got to learn to code"
     
     
     override func viewDidLoad() {
@@ -21,6 +22,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         body.hidden = true
         subject.hidden = true
     
+    
     }
 
     @IBAction func sendEmail(sender: UIButton) {
@@ -28,7 +30,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         var subjectText = "This is Jared"
         subjectText += subject.text!
         
-        let messageBody = body
+        let messageBody = "Hello whats going on you amazing man! \(hello)"
         
         let toRecipients = ["taylorhamblinfrost@gmail.com"]
         
@@ -36,7 +38,7 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         
         mc.mailComposeDelegate = self
         mc.setSubject(subjectText)
-        mc.setMessageBody(messageBody.text, isHTML: false)
+        mc.setMessageBody(messageBody, isHTML: false)
         mc.setToRecipients(toRecipients)
         
         self.presentViewController(mc, animated: true, completion: nil)
