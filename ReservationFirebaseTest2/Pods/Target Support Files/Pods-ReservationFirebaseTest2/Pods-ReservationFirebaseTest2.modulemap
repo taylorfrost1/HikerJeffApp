@@ -1,0 +1,6 @@
+framework module Pods_ReservationFirebaseTest2 {
+  umbrella header "Pods-ReservationFirebaseTest2-umbrella.h"
+
+  export *
+  module * { export * }
+}

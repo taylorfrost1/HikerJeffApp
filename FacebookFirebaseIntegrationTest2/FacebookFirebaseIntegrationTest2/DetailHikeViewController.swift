@@ -41,7 +41,6 @@ class DetailHikeViewController: UIViewController {
         self.detailMilageLabel.text = detailVariable?.milage
         self.detailElevationLabel.text = detailVariable?.elevation_change
 
-
     }
 
 }

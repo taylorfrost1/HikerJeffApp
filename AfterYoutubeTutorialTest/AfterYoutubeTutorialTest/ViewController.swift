@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var buttonFour: UIButton!
     
+
     let conditionRef = FIRDatabase.database().reference().child("condition")
     let secondConditionRef = FIRDatabase.database().reference().child("secondDate")
     let thirdConditionRef = FIRDatabase.database().reference().child("thirdDate")
@@ -71,6 +72,11 @@ class ViewController: UIViewController {
     @IBAction func buttonFourTapped(sender: UIButton) {
         self.fourthConditionRef.removeValue()
   
+    }
+    
+    for index in yesArray {
+    
+    
     }
 
 

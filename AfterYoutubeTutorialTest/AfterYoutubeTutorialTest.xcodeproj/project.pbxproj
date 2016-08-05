@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84DC6735679FA2AC6688339E /* Pods_AfterYoutubeTutorialTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC937BB705A0953B1402E04F /* Pods_AfterYoutubeTutorialTest.framework */; };
+		FD931AC11D52A89800036E7E /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD931AC01D52A89800036E7E /* DateTableViewCell.swift */; };
 		FDC28EA01D4EEEF300D4A93C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC28E9F1D4EEEF300D4A93C /* AppDelegate.swift */; };
 		FDC28EA21D4EEEF300D4A93C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC28EA11D4EEEF300D4A93C /* ViewController.swift */; };
 		FDC28EA51D4EEEF300D4A93C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC28EA31D4EEEF300D4A93C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		646C93EE84479E982CF6E7CB /* Pods-AfterYoutubeTutorialTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfterYoutubeTutorialTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AfterYoutubeTutorialTest/Pods-AfterYoutubeTutorialTest.release.xcconfig"; sourceTree = "<group>"; };
 		8A052A3B3A545916ABC5F41E /* Pods-AfterYoutubeTutorialTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AfterYoutubeTutorialTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AfterYoutubeTutorialTest/Pods-AfterYoutubeTutorialTest.debug.xcconfig"; sourceTree = "<group>"; };
 		CC937BB705A0953B1402E04F /* Pods_AfterYoutubeTutorialTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AfterYoutubeTutorialTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD931AC01D52A89800036E7E /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
 		FDC28E9C1D4EEEF300D4A93C /* AfterYoutubeTutorialTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfterYoutubeTutorialTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC28E9F1D4EEEF300D4A93C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC28EA11D4EEEF300D4A93C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				FDC28E9F1D4EEEF300D4A93C /* AppDelegate.swift */,
 				FDC28EA11D4EEEF300D4A93C /* ViewController.swift */,
+				FD931AC01D52A89800036E7E /* DateTableViewCell.swift */,
 				FDC28EA31D4EEEF300D4A93C /* Main.storyboard */,
 				FDC28EA61D4EEEF300D4A93C /* Assets.xcassets */,
 				FDC28EA81D4EEEF300D4A93C /* LaunchScreen.storyboard */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD931AC11D52A89800036E7E /* DateTableViewCell.swift in Sources */,
 				FDC28EA21D4EEEF300D4A93C /* ViewController.swift in Sources */,
 				FDC28EA01D4EEEF300D4A93C /* AppDelegate.swift in Sources */,
 			);
