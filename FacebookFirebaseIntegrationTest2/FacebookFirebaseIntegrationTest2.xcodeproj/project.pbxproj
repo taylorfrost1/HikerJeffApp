@@ -23,6 +23,8 @@
 		FDBF8A9F1D56327300D60F14 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8A9E1D56327300D60F14 /* ReservationTableViewCell.swift */; };
 		FDBF8AA11D56328F00D60F14 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */; };
 		FDBF8AA31D563CEA00D60F14 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA21D563CEA00D60F14 /* Date.swift */; };
+		FDBF8AA51D56487900D60F14 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA41D56487900D60F14 /* QuestionsViewController.swift */; };
+		FDBF8AA71D564FE200D60F14 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA61D564FE200D60F14 /* DisclaimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		FDBF8A9E1D56327300D60F14 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
 		FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		FDBF8AA21D563CEA00D60F14 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FDBF8AA41D56487900D60F14 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		FDBF8AA61D564FE200D60F14 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				FD6859591D527BE0000BC7A5 /* HikeTableviewViewController.swift */,
 				FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */,
 				FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */,
+				FDBF8AA41D56487900D60F14 /* QuestionsViewController.swift */,
+				FDBF8AA61D564FE200D60F14 /* DisclaimerViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -268,10 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBF8AA51D56487900D60F14 /* QuestionsViewController.swift in Sources */,
 				FD6859621D5292CB000BC7A5 /* Hike.swift in Sources */,
 				FDBF8AA31D563CEA00D60F14 /* Date.swift in Sources */,
 				FD6859581D5275C9000BC7A5 /* SignUpViewController.swift in Sources */,
 				FDBF8AA11D56328F00D60F14 /* ReservationViewController.swift in Sources */,
+				FDBF8AA71D564FE200D60F14 /* DisclaimerViewController.swift in Sources */,
 				FD68595A1D527BE0000BC7A5 /* HikeTableviewViewController.swift in Sources */,
 				FD68595F1D5291C0000BC7A5 /* HikeTableViewCell.swift in Sources */,
 				FD5548CE1D500B7E00958227 /* LoginController.swift in Sources */,

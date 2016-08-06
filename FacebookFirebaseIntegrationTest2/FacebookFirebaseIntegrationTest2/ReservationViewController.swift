@@ -115,6 +115,8 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        performSegueWithIdentifier("questionsControllerSegue", sender: self)
+     
     }
     
   
