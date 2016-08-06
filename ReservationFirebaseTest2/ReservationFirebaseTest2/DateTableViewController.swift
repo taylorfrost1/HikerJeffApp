@@ -16,6 +16,7 @@ class DateTableViewController: UITableViewController {
     var ref: FIRDatabaseReference!
     var refHandle: UInt!
     var dateList = [Date]()
+    var takenDates = [Date]()
     let cellId = "cellId"
     
     var dateArray = ["August 3, 2016", "August 10, 2016", "August 17, 2016", "August 24, 2016"]
@@ -26,18 +27,14 @@ class DateTableViewController: UITableViewController {
         ref = FIRDatabase.database().reference()
         
         FIRAuth.auth()?.signInAnonymouslyWithCompletion() { (user, error) in
-            
-            //            self.seedDates()
-            
+
             print(user!.uid)
             
         }
         
         fetchDates()
         
-        
-        
-        
+   
     }
     
     func seedDates() {
@@ -84,27 +81,25 @@ class DateTableViewController: UITableViewController {
                            
                             if let taken = dateInfo["taken"] as? Bool {
                                 
+                                let date = Date()
+                                date.date = dateString
+                                date.ref = self.ref.child("Dates").child(dateString)
+                                
+                                date.taken = taken
+                                
                                 if taken == false {
                                     
-                                    let date = Date()
-                                    date.date = dateString
-                                    date.ref = self.ref.child("Dates").child(dateString)
-                                    
-                                      date.taken = taken
-                                    
-                                    
-                                    self.dateList.append(date)
+                                self.dateList.append(date)
 
+                                    
+                                } else {
+                                    
+                                    self.takenDates.append(date)
                                     
                                 }
-                                
-                              
-                                
+ 
                             }
-
-                            
-                            
-                        
+  
                     }
                     
                    
@@ -120,15 +115,15 @@ class DateTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        let date = dateList[indexPath.row]
-        
-        let bool = !date.taken!
-        
-        date.ref?.updateChildValues([
-            
-            "taken":bool
-            
-            ])
+//        let date = dateList[indexPath.row]
+//        
+//        let bool = !date.taken!
+//        
+//        date.ref?.updateChildValues([
+//            
+//            "taken":bool
+//            
+//            ])
         
     }
     
