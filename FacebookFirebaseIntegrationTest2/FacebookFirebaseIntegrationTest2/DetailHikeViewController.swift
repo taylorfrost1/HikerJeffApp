@@ -42,5 +42,15 @@ class DetailHikeViewController: UIViewController {
         self.detailElevationLabel.text = detailVariable?.elevation_change
 
     }
+    
+    @IBAction func reserveButtonTapped(sender: UIButton) {
+        
+        performSegueWithIdentifier("reservationScreenSegue", sender: self)
+        
+        
+    }
+    
+    
+    
 
 }

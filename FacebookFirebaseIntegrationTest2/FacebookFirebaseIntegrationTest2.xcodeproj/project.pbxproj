@@ -20,6 +20,9 @@
 		FD6859621D5292CB000BC7A5 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859611D5292CB000BC7A5 /* Hike.swift */; };
 		FD6859651D5293D2000BC7A5 /* DetailHikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */; };
 		FD6859671D529D62000BC7A5 /* hikes.json in Resources */ = {isa = PBXBuildFile; fileRef = FD6859661D529D62000BC7A5 /* hikes.json */; };
+		FDBF8A9F1D56327300D60F14 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8A9E1D56327300D60F14 /* ReservationTableViewCell.swift */; };
+		FDBF8AA11D56328F00D60F14 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */; };
+		FDBF8AA31D563CEA00D60F14 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA21D563CEA00D60F14 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		FD6859611D5292CB000BC7A5 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHikeViewController.swift; sourceTree = "<group>"; };
 		FD6859661D529D62000BC7A5 /* hikes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikes.json; sourceTree = "<group>"; };
+		FDBF8A9E1D56327300D60F14 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		FDBF8AA21D563CEA00D60F14 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 				FD6859571D5275C9000BC7A5 /* SignUpViewController.swift */,
 				FD6859591D527BE0000BC7A5 /* HikeTableviewViewController.swift */,
 				FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */,
+				FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				FD68595E1D5291C0000BC7A5 /* HikeTableViewCell.swift */,
+				FDBF8A9E1D56327300D60F14 /* ReservationTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				FD6859611D5292CB000BC7A5 /* Hike.swift */,
+				FDBF8AA21D563CEA00D60F14 /* Date.swift */,
 			);
 			name = Modals;
 			sourceTree = "<group>";
@@ -260,11 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD6859621D5292CB000BC7A5 /* Hike.swift in Sources */,
+				FDBF8AA31D563CEA00D60F14 /* Date.swift in Sources */,
 				FD6859581D5275C9000BC7A5 /* SignUpViewController.swift in Sources */,
+				FDBF8AA11D56328F00D60F14 /* ReservationViewController.swift in Sources */,
 				FD68595A1D527BE0000BC7A5 /* HikeTableviewViewController.swift in Sources */,
 				FD68595F1D5291C0000BC7A5 /* HikeTableViewCell.swift in Sources */,
 				FD5548CE1D500B7E00958227 /* LoginController.swift in Sources */,
 				FD5548CC1D500B7E00958227 /* AppDelegate.swift in Sources */,
+				FDBF8A9F1D56327300D60F14 /* ReservationTableViewCell.swift in Sources */,
 				FD6859651D5293D2000BC7A5 /* DetailHikeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
