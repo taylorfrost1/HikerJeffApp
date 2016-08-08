@@ -21,7 +21,10 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
     
     @IBOutlet weak var reservationTableView: UITableView!
     
-    var dateArray = ["August 3, 2016", "August 10, 2016", "August 17, 2016", "August 24, 2016"]
+    var dateArray = ["August 13, 2016", "August 20, 2016", "August 27, 2016", "September 3, 2016", "September 10, 2016","September 17, 2016", "September 24, 2016", "October 1, 2016", "October 8, 2016", "October 15, 2016", "October 22, 2016", "October 29, 2016", "November 5, 2016", "November 12, 2016", "November 19, 2016", "November 26, 2016", "December 3, 2016", "December 10, 2016", "December 17, 2016", "December 24, 2016"]
+        
+        
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,9 +32,8 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
         ref = FIRDatabase.database().reference()
         
         fetchDates()
+        seedDates()
         
-        
-
     }
     
     func seedDates() {

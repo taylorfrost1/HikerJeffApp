@@ -11,15 +11,28 @@ import Firebase
 import FBSDKCoreKit
 
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var storyboard: UIStoryboard?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
          FIRApp.configure()
+        
+        self.storyboard =  UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let currentUser = FIRAuth.auth()?.currentUser
+        if currentUser != nil
+        {
+            self.window?.rootViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NavigationController") as! UINavigationController
+        }
+        else {
+            self.window?.rootViewController = self.storyboard?.instantiateViewControllerWithIdentifier("LoginController")
+        }
+        return true
 
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HikeTableviewViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class HikeController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     typealias JSONDictionary = [String:AnyObject]
     typealias JSONArray = [JSONDictionary]
@@ -17,6 +17,7 @@ class HikeTableviewViewController: UIViewController, UITableViewDataSource, UITa
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         if let filePath = NSBundle.mainBundle().URLForResource("hikes", withExtension: "json") {
             
