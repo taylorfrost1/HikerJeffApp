@@ -9,6 +9,7 @@
 import UIKit
 import Stripe
 
+
 enum STPBackendChargeResult {
     case Success, Failure
 }
@@ -22,6 +23,7 @@ class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDele
     
     // Find this at https://dashboard.stripe.com/account/apikeys
     let stripePublishableKey = "pk_test_jWDA7cRgHASCObOUYRb6wnAk"
+    //"pk_test_jWDA7cRgHASCObOUYRb6wnAk"
     
     // To set this up, see https://github.com/stripe/example-ios-backend
     let backendChargeURLString = ""
@@ -45,7 +47,9 @@ class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDele
     }
     
     func beginPayment() {
-        if (stripePublishableKey == "") {
+        
+        print("Begin payment called")
+        if (stripePublishableKey != "") {
             let alert = UIAlertController(
                 title: "You need to set your Stripe publishable key.",
                 message: "You can find your publishable key at https://dashboard.stripe.com/account/apikeys .",
@@ -56,19 +60,17 @@ class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDele
             presentViewController(alert, animated: true, completion: nil)
             return
         }
-        if (appleMerchantId != "") {
-            if let paymentRequest = Stripe.paymentRequestWithMerchantIdentifier(appleMerchantId) {
-                if Stripe.canSubmitPaymentRequest(paymentRequest) {
-                    paymentRequest.paymentSummaryItems = [PKPaymentSummaryItem(label: "Cool shirt", amount: NSDecimalNumber(string: "10.00")), PKPaymentSummaryItem(label: "Stripe shirt shop", amount: NSDecimalNumber(string: "10.00"))]
-                    let paymentAuthVC = PKPaymentAuthorizationViewController(paymentRequest: paymentRequest)
-                    paymentAuthVC.delegate = self
-                    presentViewController(paymentAuthVC, animated: true, completion: nil)
-                    return
-                }
-            }
-        } else {
-            print("You should set an appleMerchantId.")
+        if appleMerchantId != "", //or null?
+           let paymentRequest = Stripe.paymentRequestWithMerchantIdentifier(appleMerchantId) where
+            Stripe.canSubmitPaymentRequest(paymentRequest)
+        {
+            paymentRequest.paymentSummaryItems = [PKPaymentSummaryItem(label: "Cool shirt", amount: NSDecimalNumber(string: "10.00")), PKPaymentSummaryItem(label: "Stripe shirt shop", amount: NSDecimalNumber(string: "10.00"))]
+            let paymentAuthVC = PKPaymentAuthorizationViewController(paymentRequest: paymentRequest)
+            paymentAuthVC.delegate = self
+            presentViewController(paymentAuthVC, animated: true, completion: nil)
+            return            
         }
+
     }
     
     func paymentAuthorizationViewController(controller: PKPaymentAuthorizationViewController, didAuthorizePayment payment: PKPayment, completion: ((PKPaymentAuthorizationStatus) -> Void)) {

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LyndaPayTest.xcscheme</key>
+		<key>ApplePayWithStripeTest2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FD02054B1D59054800C6B737</key>
+		<key>FDCDF1D41D5A667900418153</key>
 		<dict>
 			<key>primary</key>
 			<true/>

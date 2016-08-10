@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  LyndaPayTest
+//  ApplePayWithStripeTest2
 //
-//  Created by Taylor Frost on 8/8/16.
+//  Created by Taylor Frost on 8/9/16.
 //  Copyright © 2016 Taylor Frost. All rights reserved.
 //
 

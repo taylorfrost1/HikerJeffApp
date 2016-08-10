@@ -30,14 +30,13 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
         
         fetchDates()
         seedDates()
-        
     }
     
     func seedDates() {
         
         for date in dateArray.reverse(){
             
-            ref.child("Dates").child(date).updateChildValues([
+            ref.child("Dates").child(date ).updateChildValues([
                 "taken":false,
                 "hasmcdoubled": 1
                 
@@ -58,7 +57,7 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
                     let dateString = item.0
                     
                     if let dateInfo = item.1 as? [String:AnyObject] {
-                        
+                    
                         
                         if let taken = dateInfo["taken"] as? Bool {
                             

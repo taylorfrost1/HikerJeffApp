@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD02054B1D59054800C6B737"
-               BuildableName = "LyndaPayTest.app"
-               BlueprintName = "LyndaPayTest"
-               ReferencedContainer = "container:LyndaPayTest.xcodeproj">
+               BlueprintIdentifier = "FDCDF1D41D5A667900418153"
+               BuildableName = "ApplePayWithStripeTest2.app"
+               BlueprintName = "ApplePayWithStripeTest2"
+               ReferencedContainer = "container:ApplePayWithStripeTest2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD02054B1D59054800C6B737"
-            BuildableName = "LyndaPayTest.app"
-            BlueprintName = "LyndaPayTest"
-            ReferencedContainer = "container:LyndaPayTest.xcodeproj">
+            BlueprintIdentifier = "FDCDF1D41D5A667900418153"
+            BuildableName = "ApplePayWithStripeTest2.app"
+            BlueprintName = "ApplePayWithStripeTest2"
+            ReferencedContainer = "container:ApplePayWithStripeTest2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD02054B1D59054800C6B737"
-            BuildableName = "LyndaPayTest.app"
-            BlueprintName = "LyndaPayTest"
-            ReferencedContainer = "container:LyndaPayTest.xcodeproj">
+            BlueprintIdentifier = "FDCDF1D41D5A667900418153"
+            BuildableName = "ApplePayWithStripeTest2.app"
+            BlueprintName = "ApplePayWithStripeTest2"
+            ReferencedContainer = "container:ApplePayWithStripeTest2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD02054B1D59054800C6B737"
-            BuildableName = "LyndaPayTest.app"
-            BlueprintName = "LyndaPayTest"
-            ReferencedContainer = "container:LyndaPayTest.xcodeproj">
+            BlueprintIdentifier = "FDCDF1D41D5A667900418153"
+            BuildableName = "ApplePayWithStripeTest2.app"
+            BlueprintName = "ApplePayWithStripeTest2"
+            ReferencedContainer = "container:ApplePayWithStripeTest2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
