@@ -19,6 +19,7 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
     var takenDates = [Date]()
     let cellId = "cellId"
     
+    
     @IBOutlet weak var reservationTableView: UITableView!
     
     var dateArray = ["August 13, 2016", "August 20, 2016", "August 27, 2016", "September 3, 2016", "September 10, 2016","September 17, 2016", "September 24, 2016", "October 1, 2016", "October 8, 2016", "October 15, 2016", "October 22, 2016", "October 29, 2016", "November 5, 2016", "November 12, 2016", "November 19, 2016", "November 26, 2016", "December 3, 2016", "December 10, 2016", "December 17, 2016", "December 24, 2016"]
@@ -100,6 +101,8 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
         func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ReservationTableViewCell
+            
+        cell.selectionStyle = UITableViewCellSelectionStyle.None
         
         cell.dateLabel?.text = dateList[indexPath.row].date
         
@@ -116,7 +119,5 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
         performSegueWithIdentifier("questionsControllerSegue", sender: self)
      
     }
-    
-  
 
 }
