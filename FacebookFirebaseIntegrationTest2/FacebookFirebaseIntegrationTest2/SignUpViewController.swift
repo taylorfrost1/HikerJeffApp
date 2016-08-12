@@ -56,7 +56,7 @@ class SignUpViewController: UIViewController {
                 
                 print(user.uid)
                 print("Success! Create user \(email)")
-                self.performSegueWithIdentifier("SignUpToHikeTableview", sender: self)
+                self.performSegueWithIdentifier("SignUpToSignInSegue", sender: self)
                 
             }
             

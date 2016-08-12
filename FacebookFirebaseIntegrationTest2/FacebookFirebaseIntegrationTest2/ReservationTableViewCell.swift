@@ -12,6 +12,4 @@ class ReservationTableViewCell: UITableViewCell {
 
     @IBOutlet weak var dateLabel: UILabel!
 
- 
-
 }

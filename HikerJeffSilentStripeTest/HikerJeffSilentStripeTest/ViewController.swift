@@ -55,25 +55,23 @@ class ViewController: UIViewController, STPPaymentCardTextFieldDelegate {
         let requestString = "https://desolate-gorge-63490.herokuapp.com"
         let params = ["stripeToken": token.tokenId, "amount": "200", "currency": "usd", "description": "testRun"]
         
-        Alamofire.request(.POST, requestString, parameters: params)
-            .responseJSON { response in
+        let request = Alamofire.request(.POST, requestString, parameters: params)
+            .responseString { response in
                 print(response.request)
                 print(response.response)
                 print(response.data)
                 print(response.result)
-                
-                
-                if let JSON = response.result.value {
-                    print("JSON: \(JSON)")
-                    
-                } else {
-                    print("The JSON could not be displayed")
-                }
-                
+//
+//                
+//                if let JSON = response.result.value {
+//                    print("JSON: \(JSON)")
+//                    
+//                } else {
+//                    print("The JSON could not be displayed")
+//                }
             }
-        
+        debugPrint(request)
         }
-
 
     }
 

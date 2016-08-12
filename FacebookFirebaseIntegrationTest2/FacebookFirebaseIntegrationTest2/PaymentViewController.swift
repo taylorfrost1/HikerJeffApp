@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import MessageUI
 
-class PaymentViewController: UIViewController {
+class PaymentViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
 
     }

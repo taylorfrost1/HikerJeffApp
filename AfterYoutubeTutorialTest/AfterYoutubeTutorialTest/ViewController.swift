@@ -74,10 +74,5 @@ class ViewController: UIViewController {
   
     }
     
-//    for index in yesArray {
-//    
-//    
-//    }
-
 
 }

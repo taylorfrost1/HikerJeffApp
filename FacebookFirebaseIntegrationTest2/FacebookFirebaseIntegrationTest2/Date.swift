@@ -11,8 +11,9 @@ import Firebase
 
 class Date: NSObject {
     
-    var date:String?
+    var date: NSDate?
     var ref: FIRDatabaseReference?
     var taken: Bool?
+   // var hello: NSDate?
 
 }

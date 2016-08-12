@@ -185,6 +185,7 @@
 				TargetAttributes = {
 					FD5548C71D500B7E00958227 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5B22GCUFZ7;
 					};
 				};
 			};
@@ -399,10 +400,13 @@
 			baseConfigurationReference = F8D29473F6956B380035159B /* Pods-FacebookFirebaseIntegrationTest2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FacebookFirebaseIntegrationTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FacebookFirebaseIntegrationTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +415,13 @@
 			baseConfigurationReference = 9A444DB7EBAFB309BE7C1A91 /* Pods-FacebookFirebaseIntegrationTest2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FacebookFirebaseIntegrationTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FacebookFirebaseIntegrationTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

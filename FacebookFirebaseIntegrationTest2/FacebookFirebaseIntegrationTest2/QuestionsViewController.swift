@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MessageUI
 
-class QuestionsViewController: UIViewController {
+class QuestionsViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var nameTextField: UITextField!
 
@@ -22,6 +23,7 @@ class QuestionsViewController: UIViewController {
     
     @IBOutlet weak var continueButton: UIButton!
     
+    var currentDate = Date()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,9 +43,109 @@ class QuestionsViewController: UIViewController {
     
     @IBAction func continueButtonTapped(sender: UIButton) {
         
-        performSegueWithIdentifier("disclaimerControllerSegue", sender: self)
+        if nameTextField.text != "" && phoneNumberTextField.text != "" && emailAddressTextField.text != "" && numberInPartyTextField.text != "" && fitnessTextField.text != "" {
+            
+            self.makeMailComposer()
+    
+        } else {
+            
+            alertController()
+ 
+        }
+        
+        
+   
+    }
+    
+    func alertController() {
+        
+        let alertController = UIAlertController(title: "Sorry!", message: "Please complete all fields before pressing continue.", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let saveAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: {
+            alert -> Void in
+        })
+        
+        alertController.addAction(saveAction)
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+    }
+    
+    func makeMailComposer() {
+        
+        let emailTitle = "Reserve a Hike"
+        let reciepients = ["taylorhamblinfrost@gmail.com"]
+        
+        let mailControllerInstance = MFMailComposeViewController()
+        
+        mailControllerInstance.mailComposeDelegate = self
+        
+        if MFMailComposeViewController.canSendMail(){
+            
+            mailControllerInstance.setSubject(emailTitle)
+            mailControllerInstance.setMessageBody("Hi my name is \(nameTextField.text!). My phone number is \(phoneNumberTextField.text!). The hike I'd like to go on is \(emailAddressTextField.text!) and on this day \(numberInPartyTextField.text!). The number in my party is \(fitnessTextField.text!).", isHTML: false)
+            
+            mailControllerInstance.setToRecipients(reciepients)
+            
+            self.presentViewController(mailControllerInstance, animated: true, completion: {
+                
+                self.currentDate.ref?.updateChildValues([
+                    
+                    "taken":true
+                
+                    
+                    ])
+                
+                
+            })
+            
+        } else {
+            
+           print("cannot send mail")
+            
+        }
+        
+        
         
     }
     
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
+        switch (result)
+        {
+            
+        case MFMailComposeResultCancelled:
+            
+            break
+            
+        case MFMailComposeResultSaved:
+            
+            break
+            
+        case MFMailComposeResultSent:
+            
+            break
+            
+        case MFMailComposeResultFailed:
+            
+            print("Mail sent failure: \(error)")
+            break
+            
+        default:
+            
+            break
+            
+        }
+        
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+        for controller in (self.navigationController?.viewControllers)! {
+            
+            if controller.isKindOfClass(HikeController) {
+                
+                self.navigationController?.popToViewController(controller, animated: true)
+                
+            }
+        }
+
+    }
 
 }
