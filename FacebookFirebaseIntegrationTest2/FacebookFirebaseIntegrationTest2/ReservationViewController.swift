@@ -27,10 +27,7 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
     
     @IBOutlet weak var reservationTableView: UITableView!
     
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,10 +38,7 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
         self.date = formatter.dateFromString(dateString)!
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(reloadData), name: "reloadTableviewData", object: nil)
-        
-        
-       
-        //        seedDates()
+
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -83,6 +77,7 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.dateList.count
+        
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -99,9 +94,7 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
             
             cell.dateLabel?.text = dateString
             
-            
         }
-        
         
         cell.dateLabel?.layer.cornerRadius = 10
         
@@ -129,5 +122,6 @@ class ReservationViewController: UIViewController,UITableViewDataSource, UITable
                 
         }
     }
+ 
     
 }

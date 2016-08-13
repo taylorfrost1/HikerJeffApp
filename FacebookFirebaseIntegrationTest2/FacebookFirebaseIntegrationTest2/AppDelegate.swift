@@ -28,15 +28,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         ref = FIRDatabase.database().reference()
         
-//        self.storyboard =  UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-//        let currentUser = FIRAuth.auth()?.currentUser
-//        if currentUser != nil
-//        {
-//            self.window?.rootViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NavigationController") as! UINavigationController
-//        }
-//        else {
-//            self.window?.rootViewController = self.storyboard?.instantiateViewControllerWithIdentifier("LoginController")
-//        }
+        self.storyboard =  UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let currentUser = FIRAuth.auth()?.currentUser
+        if currentUser != nil
+        {
+            self.window?.rootViewController = self.storyboard?.instantiateViewControllerWithIdentifier("NavigationController") as! UINavigationController
+        }
+        else {
+            self.window?.rootViewController = self.storyboard?.instantiateViewControllerWithIdentifier("LoginController")
+        }
         
         self.fetchDates()
         
