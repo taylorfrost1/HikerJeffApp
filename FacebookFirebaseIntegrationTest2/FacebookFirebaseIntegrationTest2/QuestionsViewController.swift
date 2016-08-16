@@ -25,8 +25,18 @@ class QuestionsViewController: UIViewController, MFMailComposeViewControllerDele
     
     var currentDate = Date()
     
+    override func viewWillDisappear(animated: Bool) {
+        
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBarHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logo = UIImage(named: "navkanabhikerIcon")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
         
         continueButton.layer.cornerRadius = 10
         
@@ -73,7 +83,7 @@ class QuestionsViewController: UIViewController, MFMailComposeViewControllerDele
     func makeMailComposer() {
         
         let emailTitle = "Reserve a Hike"
-        let reciepients = ["taylorhamblinfrost@gmail.com"]
+        let reciepients = ["hikerjeff@gmail.com"]
         
         let mailControllerInstance = MFMailComposeViewController()
         
@@ -94,8 +104,7 @@ class QuestionsViewController: UIViewController, MFMailComposeViewControllerDele
                 
                     
                     ])
-                
-                
+
             })
             
         } else {
@@ -104,7 +113,7 @@ class QuestionsViewController: UIViewController, MFMailComposeViewControllerDele
             
         }
         
-        
+//        performSegueWithIdentifier("thankYouControllerSegue", sender: self)
         
     }
     
@@ -122,6 +131,8 @@ class QuestionsViewController: UIViewController, MFMailComposeViewControllerDele
             
         case MFMailComposeResultSent:
             
+            performSegueWithIdentifier("thankYouControllerSegue", sender: self)
+            
             break
             
         case MFMailComposeResultFailed:
@@ -135,16 +146,18 @@ class QuestionsViewController: UIViewController, MFMailComposeViewControllerDele
             
         }
         
-        self.dismissViewControllerAnimated(true, completion: nil)
+//        performSegueWithIdentifier("thankYouControllerSegue", sender: self)
         
-        for controller in (self.navigationController?.viewControllers)! {
-            
-            if controller.isKindOfClass(HikeController) {
-                
-                self.navigationController?.popToViewController(controller, animated: true)
-                
-            }
-        }
+        self.dismissViewControllerAnimated(true, completion: nil)
+//
+//        for controller in (self.navigationController?.viewControllers)! {
+//            
+//            if controller.isKindOfClass(HikeController) {
+//                
+//                self.navigationController?.popToViewController(controller, animated: true)
+//                
+//            }
+//        }
 
     }
 

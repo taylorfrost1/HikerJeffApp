@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8E13A4E9D9441A407584E74 /* Pods_FacebookFirebaseIntegrationTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69724E0D23B3F5CF8888AC4 /* Pods_FacebookFirebaseIntegrationTest2.framework */; };
+		FD3983B41D5FB8B900AD0C6D /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3983B31D5FB8B900AD0C6D /* ThankYouViewController.swift */; };
 		FD5548CC1D500B7E00958227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5548CB1D500B7E00958227 /* AppDelegate.swift */; };
 		FD5548CE1D500B7E00958227 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5548CD1D500B7E00958227 /* LoginController.swift */; };
 		FD5548D11D500B7E00958227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5548CF1D500B7E00958227 /* Main.storyboard */; };
@@ -24,14 +25,14 @@
 		FDBF8AA11D56328F00D60F14 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */; };
 		FDBF8AA31D563CEA00D60F14 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA21D563CEA00D60F14 /* Date.swift */; };
 		FDBF8AA51D56487900D60F14 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA41D56487900D60F14 /* QuestionsViewController.swift */; };
-		FDBF8AA71D564FE200D60F14 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF8AA61D564FE200D60F14 /* PaymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A444DB7EBAFB309BE7C1A91 /* Pods-FacebookFirebaseIntegrationTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookFirebaseIntegrationTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookFirebaseIntegrationTest2/Pods-FacebookFirebaseIntegrationTest2.release.xcconfig"; sourceTree = "<group>"; };
 		C69724E0D23B3F5CF8888AC4 /* Pods_FacebookFirebaseIntegrationTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookFirebaseIntegrationTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D29473F6956B380035159B /* Pods-FacebookFirebaseIntegrationTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookFirebaseIntegrationTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookFirebaseIntegrationTest2/Pods-FacebookFirebaseIntegrationTest2.debug.xcconfig"; sourceTree = "<group>"; };
-		FD5548C81D500B7E00958227 /* FacebookFirebaseIntegrationTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookFirebaseIntegrationTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3983B31D5FB8B900AD0C6D /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		FD5548C81D500B7E00958227 /* kanabhiker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanabhiker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5548CB1D500B7E00958227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD5548CD1D500B7E00958227 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		FD5548D01D500B7E00958227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		FDBF8AA21D563CEA00D60F14 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		FDBF8AA41D56487900D60F14 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
-		FDBF8AA61D564FE200D60F14 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 		FD5548C91D500B7E00958227 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD5548C81D500B7E00958227 /* FacebookFirebaseIntegrationTest2.app */,
+				FD5548C81D500B7E00958227 /* kanabhiker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 				FD6859641D5293D2000BC7A5 /* DetailHikeViewController.swift */,
 				FDBF8AA01D56328F00D60F14 /* ReservationViewController.swift */,
 				FDBF8AA41D56487900D60F14 /* QuestionsViewController.swift */,
-				FDBF8AA61D564FE200D60F14 /* PaymentViewController.swift */,
+				FD3983B31D5FB8B900AD0C6D /* ThankYouViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -153,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD5548C71D500B7E00958227 /* FacebookFirebaseIntegrationTest2 */ = {
+		FD5548C71D500B7E00958227 /* kanabhiker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD5548DA1D500B7E00958227 /* Build configuration list for PBXNativeTarget "FacebookFirebaseIntegrationTest2" */;
+			buildConfigurationList = FD5548DA1D500B7E00958227 /* Build configuration list for PBXNativeTarget "kanabhiker" */;
 			buildPhases = (
 				CBA2098087694F4633E982A0 /* [CP] Check Pods Manifest.lock */,
 				FD5548C41D500B7E00958227 /* Sources */,
@@ -168,9 +168,9 @@
 			);
 			dependencies = (
 			);
-			name = FacebookFirebaseIntegrationTest2;
+			name = kanabhiker;
 			productName = FacebookFirebaseIntegrationTest2;
-			productReference = FD5548C81D500B7E00958227 /* FacebookFirebaseIntegrationTest2.app */;
+			productReference = FD5548C81D500B7E00958227 /* kanabhiker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD5548C31D500B7E00958227 /* Build configuration list for PBXProject "FacebookFirebaseIntegrationTest2" */;
+			buildConfigurationList = FD5548C31D500B7E00958227 /* Build configuration list for PBXProject "kanabhiker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,7 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD5548C71D500B7E00958227 /* FacebookFirebaseIntegrationTest2 */,
+				FD5548C71D500B7E00958227 /* kanabhiker */,
 			);
 		};
 /* End PBXProject section */
@@ -280,11 +280,11 @@
 				FDBF8AA31D563CEA00D60F14 /* Date.swift in Sources */,
 				FD6859581D5275C9000BC7A5 /* SignUpViewController.swift in Sources */,
 				FDBF8AA11D56328F00D60F14 /* ReservationViewController.swift in Sources */,
-				FDBF8AA71D564FE200D60F14 /* PaymentViewController.swift in Sources */,
 				FD68595A1D527BE0000BC7A5 /* HikeController.swift in Sources */,
 				FD68595F1D5291C0000BC7A5 /* HikeTableViewCell.swift in Sources */,
 				FD5548CE1D500B7E00958227 /* LoginController.swift in Sources */,
 				FD5548CC1D500B7E00958227 /* AppDelegate.swift in Sources */,
+				FD3983B41D5FB8B900AD0C6D /* ThankYouViewController.swift in Sources */,
 				FDBF8A9F1D56327300D60F14 /* ReservationTableViewCell.swift in Sources */,
 				FD6859651D5293D2000BC7A5 /* DetailHikeViewController.swift in Sources */,
 			);
@@ -405,7 +405,7 @@
 				INFOPLIST_FILE = FacebookFirebaseIntegrationTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FacebookFirebaseIntegrationTest2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = kanabhiker;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -420,7 +420,7 @@
 				INFOPLIST_FILE = FacebookFirebaseIntegrationTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FacebookFirebaseIntegrationTest2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = kanabhiker;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -428,7 +428,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD5548C31D500B7E00958227 /* Build configuration list for PBXProject "FacebookFirebaseIntegrationTest2" */ = {
+		FD5548C31D500B7E00958227 /* Build configuration list for PBXProject "kanabhiker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD5548D81D500B7E00958227 /* Debug */,
@@ -437,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD5548DA1D500B7E00958227 /* Build configuration list for PBXNativeTarget "FacebookFirebaseIntegrationTest2" */ = {
+		FD5548DA1D500B7E00958227 /* Build configuration list for PBXNativeTarget "kanabhiker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD5548DB1D500B7E00958227 /* Debug */,

@@ -3,24 +3,24 @@
 		"hike_name": "Buckskin Half",
 		"picture": "BuckskinHalf",
 		"difficulty": "Difficult",
-		"location": "Grand Canyon",
+		"location": "Kanab, UT",
 		"info": "The Buckskin is reportedly the longest slot canyon in the world that can be hiked without rappelling gear, with only one place to climb out in over 15 miles.  It is considered one of the top hikes on the planet, as it winds through sandstone up to 300 feet deep and shoulder-width in some places.  This 10-mile hike has to be hiked with 0 percent precipitation forecast.",
 		"milage": "9 Miles",
 		"elevation_change": "500 ft"
 	}, {
 		"hike_name": "Cannan Notch",
-		"picture": "paria",
+		"picture": "cannan1",
 		"difficulty": "Difficult",
-		"location": "Hilldale, UT",
+		"location": "Kanab, UT",
 		"info": "For those who want to have a longer hike than the White Wave, the Notch is another 2 miles.  Canaan Ranch and the Arizona Strip can be seen far below.  The rim itself offers spectacular photography of hoodoos and spires that dot the cliff edge.   The term “island in the sky” or “table top” is certainly applicable here, as you feel like you’re standing on the edge of the world, 2500 feet in the air.",
 		"milage": "10 Miles",
 		"elevation_change": "2000 ft"
 
 	}, {
 		"hike_name": "Cannan Sawmill",
-		"picture": "paria2",
+		"picture": "cannan4",
 		"difficulty": "Difficult",
-		"location": "Hilldale, UT",
+		"location": "Kanab, UT",
 		"info": "This sawmill represents an age gone by where early pioneers logged ponderosa timber off mesa tops, rough sawed the logs, and then lowered them to the desert valley floor via iron cable.  Lonely but “beautiful” dead tree “snags” stand in magnificent contrast to the blue skies all around.   An appreciation for the hard work required to build the west will be a lasting impression from this 12-mile excursion.",
 		"milage": "12 Miles",
 		"elevation_change": "2000 ft"
@@ -29,7 +29,7 @@
 		"hike_name": "Cannan Traverse",
 		"picture": "Cannan",
 		"difficulty": "Extreme",
-		"location": "Hilldale, UT",
+		"location": "Kanab, UT",
 		"info": "This is a spectacular hike across the entire Canaan Mountain in one day with the Zion National Park horizon to watch on the north.  A giant caramelized hoodoo and miniature arch mark the ½ way point, and the distant Eagle Crags can be seen to the north, where the trail ends on the other side.  Desert Bighorn Sheep are often seen during the traverse that covers over 15 miles and ascends and descends 2,000 feet. ",
 		"milage": "15 Miles",
 		"elevation_change": "2000 ft"
@@ -47,22 +47,22 @@
 		"picture": "paria5",
 		"difficulty": "Moderate",
 		"location": "Kanab, UT",
-		"info": "This is a beautiful 10-mile round trip on mostly sandstone in the area north of the famous Buckskin and Wave area.  The elevation change is 500 feet down from the rim and 500 feet to come back out.  There are unearthly formations like fins, spires, hoodoos, domes, pinnacles, and of course deep pockets in the sandstone ranging in size from bath tub to Olympic swimming pool. This trail is especially attractive to photographers after a recent storm.   ",
+		"info": "This is a beautiful 10-mile round trip on mostly sandstone in the area north of the famous Buckskin and Wave area.  The elevation change is 500 feet down from the rim and 500 feet to come back out.  There are unearthly formations like fins, spires, hoodoos, domes, pinnacles, and of course deep pockets in the sandstone ranging in size from bath tub to Olympic swimming pool.",
 		"milage": "9 Miles",
 		"elevation_change": "1000 ft"
 	}, {
 		"hike_name": "Thunder River",
-		"picture": "cannan1",
+		"picture": "thunderRiverLandscape",
 		"difficulty": "Extreme",
-		"location": "Hilldale, Utah",
-		"info": "(Very Difficult) this is one hike for only the fittest of the fit.  It’s a more primitive trail than the well-known North and South Rim trails in the Grand Canyon.  It descends off the beautiful Kaibab Forest, across the Esplanade, down to Surprise Valley, and finally to the thundering river coming out of the canyon wall.  Thunder River requires descending 3,000 feet in 9 miles and returning in the same day.  Because of the extreme temperatures in the summer we will only be doing this hike in the spring and fall.",
+		"location": "Kanab, Utah",
+		"info": "This is one hike for only the fittest of the fit.  It’s a more primitive trail than the well-known North and South Rim trails in the Grand Canyon. It descends off the beautiful Kaibab Forest, across the Esplanade, down to Surprise Valley, and finally to the thundering river coming out of the canyon wall. Thunder River requires descending 3,000 feet in 9 miles and returning in the same day. Because of the extreme temperatures in the summer we will only be doing this hike in the spring and fall.",
 		"milage": "18 Miles",
 		"elevation_change": "3000 ft"
 	}, {
 		"hike_name": "Water Canyon Arch",
 		"picture": "cannan3",
 		"difficulty": "Difficult",
-		"location": "Hilldale, UT",
+		"location": "Kanab, UT",
 		"info": "This arch can be seen on the top of the 1500-foot Water Canyon east wall, while hiking towards the White Wave.  Its magnificence can only be appreciated by standing next to it.  This will require a 13-mile loop between Water and Squirrel canyons, with beautiful views of Beehive Mountain and other sandstone formations. ",
 		"milage": "13 Miles",
 		"elevation_change": "2000 ft"
@@ -70,17 +70,9 @@
 		"hike_name": "White Wave",
 		"picture": "WhiteWave",
 		"difficulty": "Difficult",
-		"location": "Hilldale, UT",
+		"location": "Kanab, UT",
 		"info": "This wave is every bit as spectacular as its counterpart in Coyote Buttes.  The trek to get there, however, is much more challenging with a 2,000 foot ascent over 3 miles.   The reward of seeing divinely- sculptured white sandstone against a Zion National Park backdrop is truly an inspiring experience and well worth the effort. ",
 		"milage": "6 Miles",
 		"elevation_change": "2000 ft"
-	}, {
-		"hike_name": "Yellow Rock",
-		"picture": "cannan4",
-		"difficulty": "Moderate",
-		"location": "Kanab, UT",
-		"info": "Yellow Rock is an unearthly dome-shaped monolith which is ½ mile long and 500 feet high, made up of primarily yellow sandstone mixed with rainbow-like colors.  There is also a hide-out cave nearby, reputed to have been used by a German spy during World War II.  This remote area is seldom seen even today.   Elevation change and distance will again be around 500 feet and 10 miles.",
-		"milage": "6 Miles",
-		"elevation_change": "1000 ft"
 	}]
 }

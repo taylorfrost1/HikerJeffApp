@@ -94,7 +94,7 @@ class LoginController: UIViewController, FBSDKLoginButtonDelegate, UITextFieldDe
                 
             })
         }
-        
+   
     }
     
     func alertController() {

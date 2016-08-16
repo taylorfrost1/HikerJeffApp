@@ -9,6 +9,7 @@
 import UIKit
 
 class DetailHikeViewController: UIViewController {
+
     
     var detailVariable: Hike?
 
@@ -28,9 +29,23 @@ class DetailHikeViewController: UIViewController {
     
     @IBOutlet weak var detailReserveButton: UIButton!
     
+    override func viewWillDisappear(animated: Bool) {
+        
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBarHidden = false
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logo = UIImage(named: "navkanabhikerIcon")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
+        
+        
+        
+
         
         detailReserveButton.layer.cornerRadius = 10
         self.detailImageView.image = UIImage(named:detailVariable!.picture)
@@ -42,6 +57,8 @@ class DetailHikeViewController: UIViewController {
         self.detailElevationLabel.text = detailVariable?.elevation_change
 
     }
+    
+
     
     @IBAction func reserveButtonTapped(sender: UIButton) {
         

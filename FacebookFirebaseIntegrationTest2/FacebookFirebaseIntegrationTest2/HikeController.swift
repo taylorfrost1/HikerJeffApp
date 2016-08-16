@@ -14,9 +14,20 @@ class HikeController: UIViewController, UITableViewDataSource, UITableViewDelega
     typealias JSONArray = [JSONDictionary]
     var hikeArray = [Hike]()
     var currentHike = Hike()
+    
+    override func viewWillDisappear(animated: Bool) {
+        
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBarHidden = false
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logo = UIImage(named: "navkanabhikerIcon")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
+        
         
         
         if let filePath = NSBundle.mainBundle().URLForResource("hikes", withExtension: "json") {
